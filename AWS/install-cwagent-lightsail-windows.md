@@ -58,7 +58,7 @@ https://amazoncloudwatch-agent.s3.amazonaws.com/windows/amd64/latest/amazon-clou
 
 5. Start the cloudwatch agent using following command 
 ```
-"C:\Program Files\Amazon\AmazonCloudWatchAgent\amazon-cloudwatch-agent-ctl.ps1" -a fetch-config -m ec2 -s -c file:"C:\Program Files\Amazon\AmazonCloudWatchAgent\config.json"
+"C:\Program Files\Amazon\AmazonCloudWatchAgent\amazon-cloudwatch-agent-ctl.ps1" -a fetch-config -m onPrem -s -c file:"C:\Program Files\Amazon\AmazonCloudWatchAgent\config.json"
 ```
 
 6. Wait for few minutes before the agent starts pushing metrics to CloudWatch console
